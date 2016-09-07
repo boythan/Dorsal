@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Dorsal Vinh</string>
+    <string name="hint_email">Your email</string>
+    <string name="hint_pass">Password</string>
+    <string name="login">Login</string>
+    <string name="facebook_login">Facebook Login</string>
+
+    <string name="forget_pass">Forget Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="title_signup">CREATE NEW ACCOUNT</string>
+    <string name="sig_up_name">Your name</string>
+    <string name="sig_up_email">Email</string>
+    <string name="sig_up_pass">Password</string>
+    <string name="sig_up_retype">Retype Password</string>
+    <string name="verification_text">We have sent an activation code. Please check your email and enter it here.</string>
+    <string name="verification_hint">Insert code here</string>
+    <string name="done">Done</string>
+    <string name="registor_title">CREATE NEW ACCOUNT</string>
+    <string name="verifi_title">VERIFICATION</string>
+    <string name="resent_verify">Don\'t get your activation code? Click here to resend</string>
+    <string name="title_list">List All Report</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="line_count">1</string>
+
+</resources>

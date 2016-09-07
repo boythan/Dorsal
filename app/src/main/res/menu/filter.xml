@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/title_filter"
+        android:title="All"
+        app:showAsAction = "always|withText"
+        />
+    <item
+        android:id="@+id/filter"
+        android:icon="@mipmap/ic_dropdown_selected"
+        android:title="All"
+        app:showAsAction="always|collapseActionView">
+        <menu>
+            <item
+                android:id="@+id/filter1"
+                android:title="All Time"
+                android:titleCondensed="@string/app_name"
+                app:showAsAction="always|withText"
+                />
+            <item
+                android:id="@+id/filter2"
+                android:title="Last 12 hrs"
+                app:showAsAction="always|withText"
+                />
+            <item
+                android:id="@+id/filter3"
+                android:title="Last 24 hrs"
+                app:showAsAction="always|withText"
+                />
+            <item
+                android:id="@+id/filter4"
+                android:title="Last week"
+                app:showAsAction="always|withText"
+                />
+            <item
+                android:id="@+id/filter5"
+                android:title="Last Month"
+                app:showAsAction="always|withText"
+                />
+
+        </menu>
+    </item>
+
+</menu>
